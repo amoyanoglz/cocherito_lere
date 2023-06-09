@@ -28,5 +28,6 @@ class Coche:
         #     "combustible" = "",
         #     "kw_bat" = ""
         #     }
-    
-    def __str__(self):
+
+    def __str__(self) -> str:
+        return f"{self.marca} {self.modelo} - [{self.matricula}]"
