@@ -23,11 +23,7 @@ class Coche:
         self.marca = marca
         self.modelo = modelo
         self.matricula = matricula
-        # self.motor = {
-        #     "tipo" = "gggg",
-        #     "combustible" = "",
-        #     "kw_bat" = ""
-        #     }
+
 
     def __str__(self) -> str:
         return f"{self.marca} {self.modelo} - [{self.matricula}]"
